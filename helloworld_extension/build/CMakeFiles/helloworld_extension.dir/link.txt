@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libhelloworld_extension.so -o libhelloworld_extension.so CMakeFiles/helloworld_extension.dir/src/register_types.cpp.o  /home/viper_pilot/godot-ext/helloworld_extension/../godot-cpp//bin/libgodot-cpp.linux.template_release.x86_64.a 

@@ -1,0 +1,5 @@
+[configuration]
+entry_symbol = "gdextension_library_init"
+
+[libraries]
+linux.x86_x64 = "res://helloworld_extension/build/libhelloworld_extension.so"

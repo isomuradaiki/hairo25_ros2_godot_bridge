@@ -1,0 +1,10 @@
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/uninstall.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/godot_ros2_bridge_uninstall.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/godot_ros2_bridge.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/test.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/edit_cache.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/rebuild_cache.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/list_install_components.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/install.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/install/local.dir
+/home/viper_pilot/godot-ext/godot_ros2_bridge/build/CMakeFiles/install/strip.dir
