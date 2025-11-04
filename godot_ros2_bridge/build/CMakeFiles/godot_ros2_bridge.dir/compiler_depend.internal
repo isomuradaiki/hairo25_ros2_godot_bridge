@@ -974,6 +974,7 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_bridge.cpp.o
  /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector3i.hpp
  /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector4.hpp
  /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector4i.hpp
+ /home/viper_pilot/godot-ext/godot_ros2_bridge/src/document.h
  /home/viper_pilot/godot-ext/godot_ros2_bridge/src/enum.h
  /home/viper_pilot/godot-ext/godot_ros2_bridge/src/ros2_bridge.h
  /home/viper_pilot/godot-ext/godot_ros2_bridge/src/ros2_publisher.h
