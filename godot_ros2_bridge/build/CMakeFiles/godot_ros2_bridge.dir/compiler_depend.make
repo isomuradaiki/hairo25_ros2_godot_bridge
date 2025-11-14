@@ -467,6 +467,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/register_types.cpp.o: /home/viper_pilot/god
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
@@ -972,7 +977,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_bridge.cpp.o: /home/viper_pilot/godot-
   /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector3i.hpp \
   /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector4.hpp \
   /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector4i.hpp \
-  /home/viper_pilot/godot-ext/godot_ros2_bridge/src/document.h \
   /home/viper_pilot/godot-ext/godot_ros2_bridge/src/enum.h \
   /home/viper_pilot/godot-ext/godot_ros2_bridge/src/ros2_bridge.h \
   /home/viper_pilot/godot-ext/godot_ros2_bridge/src/ros2_publisher.h \
@@ -1354,6 +1358,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_bridge.cpp.o: /home/viper_pilot/godot-
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
@@ -2240,6 +2249,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_publisher.cpp.o: /home/viper_pilot/god
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
@@ -3126,6 +3140,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
@@ -3549,8 +3568,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /home/viper_pilot/godot-ext/godot_ros2_bridge/src/ros2_subscriber.cpp:
 
-/home/viper_pilot/godot-ext/godot_ros2_bridge/src/document.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
@@ -3643,8 +3660,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
@@ -3652,8 +3667,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
@@ -3917,8 +3930,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /usr/include/c++/13/bits/node_handle.h:
 
-/usr/include/c++/13/bits/new_allocator.h:
-
 /usr/include/c++/13/bits/move.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
@@ -3984,6 +3995,14 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 /usr/include/c++/13/bits/stl_heap.h:
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/13/variant:
+
+/usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bits/align.h:
 
 /usr/include/c++/13/ostream:
 
@@ -4217,6 +4236,10 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:
 
+/usr/include/c++/13/bits/new_allocator.h:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp:
+
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
@@ -4284,6 +4307,8 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
 
 /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp:
 
 /usr/include/c++/13/csignal:
 
@@ -4425,10 +4450,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /home/viper_pilot/godot-ext/godot-cpp/gen/include/godot_cpp/variant/builtin_vararg_methods.hpp:
 
-/usr/include/c++/13/variant:
-
-/usr/include/c++/13/bits/atomic_base.h:
-
 /home/viper_pilot/godot-ext/godot-cpp/gdextension/gdextension_interface.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
@@ -4477,6 +4498,10 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /opt/ros/jazzy/include/rmw/rmw/message_sequence.h:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
@@ -4490,6 +4515,10 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 /home/viper_pilot/godot-ext/godot-cpp/gen/include/godot_cpp/variant/packed_byte_array.hpp:
 
 /home/viper_pilot/godot-ext/godot-cpp/gen/include/godot_cpp/variant/utility_functions.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
 /home/viper_pilot/godot-ext/godot-cpp/gen/include/godot_cpp/variant/packed_color_array.hpp:
 
@@ -5023,6 +5052,10 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/waitable.hpp:
 
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/event_handler.hpp:
 
 /opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp:
@@ -5069,6 +5102,8 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 
 /opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h:
 
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
+
 /opt/ros/jazzy/include/rmw/rmw/error_handling.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
@@ -5098,8 +5133,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
 /usr/include/c++/13/bit:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
 
@@ -5318,9 +5351,3 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o: /home/viper_pilot/go
 /usr/include/c++/13/array:
 
 /usr/include/c++/13/atomic:
-
-/usr/include/c++/13/bits/align.h:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp:
-
-/usr/include/c++/13/bits/alloc_traits.h:

@@ -11,6 +11,7 @@ enum ROS_MSG_TYPE {
         ROS2_INT32,
         ROS2_IMAGE,
         ROS2_INT16_ARRAY,
-        ROS2_FLOAT32_ARRAY
+        ROS2_FLOAT32_ARRAY,
+        ROS2_COMPRESSED_IMAGE
 };
 #include "ros2_bridge.h"

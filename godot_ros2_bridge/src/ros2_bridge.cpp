@@ -17,6 +17,10 @@ void ROS2Bridge::_bind_methods() {
     ClassDB::bind_method(D_METHOD("add_subscriber_int16_array", "topic", "callback"), &ROS2Bridge::add_subscriber_int16_array);
     ClassDB::bind_method(D_METHOD("add_subscriber_float32_array", "topic", "callback"), &ROS2Bridge::add_subscriber_float32_array);
     ClassDB::bind_method(D_METHOD("add_subscriber_image","topic","callback"),&ROS2Bridge::add_subscriber_image);
+    ClassDB::bind_method(D_METHOD("add_subscriber_compressed_image","topic","callback"),&ROS2Bridge::add_subscriber_compressed_image);//圧縮画像
+    //topic通信の破壊
+    ClassDB::bind_method(D_METHOD("remove_publisher","topic"),&ROS2Bridge::remove_publisher);
+    ClassDB::bind_method(D_METHOD("remove_subscriber","topic"),&ROS2Bridge::remove_subscriber);
     // enumバインド
     BIND_ENUM_CONSTANT(STRING);
     BIND_ENUM_CONSTANT(INT32);
@@ -109,6 +113,20 @@ void ROS2Bridge::add_subscriber_image(const String &topic, Callable callback) {
     ));
 }
 
+void ROS2Bridge::add_subscriber_compressed_image(const String &topic,Callable callback) {
+    subscribers.push_back(std::make_shared<ROS2Subscriber>(
+        node,
+        topic.utf8().get_data(),
+        ROS2_COMPRESSED_IMAGE,
+        nullptr,    // string callback
+        nullptr,    // int callback
+        Callable(),
+        nullptr,
+        nullptr,
+        callback
+    ));
+}
+
 void ROS2Bridge::add_subscriber_int16_array(const String &topic, Callable callback) {
     auto cb = [callback](const PackedInt32Array &msg){
         Variant arg(msg);
@@ -123,4 +141,35 @@ void ROS2Bridge::add_subscriber_float32_array(const String &topic, Callable call
         callback.callv(Array::make(arg));
     };
     subscribers.push_back(std::make_shared<ROS2Subscriber>(node, topic.utf8().get_data(), ROS2_FLOAT32_ARRAY, nullptr, nullptr,Callable(),nullptr,cb));
+}
+
+//以下追加
+void ROS2Bridge::remove_publisher(const String &topic) {
+    std::string t = topic.utf8().get_data();
+
+    publishers.erase(
+        std::remove_if(
+            publishers.begin(),
+            publishers.end(),
+            [&](const std::shared_ptr<ROS2Publisher>& pub){
+                return pub->topic == t;
+            }
+        ),
+        publishers.end()
+    );
+}
+
+void ROS2Bridge::remove_subscriber(const String &topic) {
+    std::string t = topic.utf8().get_data();
+
+    subscribers.erase(
+        std::remove_if(
+            subscribers.begin(),
+            subscribers.end(),
+            [&](const std::shared_ptr<ROS2Subscriber>& sub){
+                return sub->topic == t;
+            }
+        ),
+        subscribers.end()
+    );
 }

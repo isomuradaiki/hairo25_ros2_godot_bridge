@@ -58,17 +58,23 @@ public:
 
     void add_subscriber_image(const String &topic, Callable callback);
 
+    void add_subscriber_compressed_image(const String &topic, Callable callback);
+
     void add_subscriber_int16_array(const String &topic, Callable callback);
 
     void add_subscriber_float32_array(const String &topic, Callable callback);
 
+    //追加
+    void remove_publisher(const String &topic);
+    void remove_subscriber(const String &topic);
 
     enum MSG_TYPE {
         STRING,
         INT32,
         IMAGE,
         INT16_ARRAY,
-        FLOAT32_ARRAY
+        FLOAT32_ARRAY,
+        COMPRESSED_IMAGE,
     };
     
 

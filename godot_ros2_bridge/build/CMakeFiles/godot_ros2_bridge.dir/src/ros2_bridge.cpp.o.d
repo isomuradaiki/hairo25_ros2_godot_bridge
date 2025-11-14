@@ -813,6 +813,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_bridge.cpp.o: \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
  /home/viper_pilot/godot-ext/godot_ros2_bridge/../godot-cpp/gen/include/godot_cpp/classes/image.hpp \
  /home/viper_pilot/godot-ext/godot_ros2_bridge/../godot-cpp/include/godot_cpp/classes/ref.hpp \
  /home/viper_pilot/godot-ext/godot_ros2_bridge/../godot-cpp/gen/include/godot_cpp/classes/ref_counted.hpp \

@@ -468,6 +468,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/register_types.cpp.o
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
@@ -974,7 +979,6 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_bridge.cpp.o
  /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector3i.hpp
  /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector4.hpp
  /home/viper_pilot/godot-ext/godot-cpp/include/godot_cpp/variant/vector4i.hpp
- /home/viper_pilot/godot-ext/godot_ros2_bridge/src/document.h
  /home/viper_pilot/godot-ext/godot_ros2_bridge/src/enum.h
  /home/viper_pilot/godot-ext/godot_ros2_bridge/src/ros2_bridge.h
  /home/viper_pilot/godot-ext/godot_ros2_bridge/src/ros2_publisher.h
@@ -1356,6 +1360,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_bridge.cpp.o
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
@@ -2243,6 +2252,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_publisher.cpp.o
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
@@ -3130,6 +3144,11 @@ CMakeFiles/godot_ros2_bridge.dir/src/ros2_subscriber.cpp.o
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+ /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
