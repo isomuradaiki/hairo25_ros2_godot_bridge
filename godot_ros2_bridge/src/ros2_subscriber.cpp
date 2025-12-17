@@ -108,8 +108,10 @@ void ROS2Subscriber::setup_image_subscription(std::shared_ptr<rclcpp::Node> node
 void ROS2Subscriber::setup_compressed_image_subscription(std::shared_ptr<rclcpp::Node> node) {
     if (!callback_compressed_image.is_valid()) return;
 
+    rclcpp::QoS qos = rclcpp::SensorDataQoS();  // ← 追加
+
     sub_compressed_image = node->create_subscription<sensor_msgs::msg::CompressedImage>(
-        topic, 10,
+        topic, qos,//変更
         [this](sensor_msgs::msg::CompressedImage::UniquePtr msg){
             
             Ref<Image> image;

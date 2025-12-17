@@ -29,9 +29,11 @@ void ROS2Bridge::_bind_methods() {
     BIND_ENUM_CONSTANT(FLOAT32_ARRAY);
 }
 void ROS2Bridge::create_node(const String &node_name) {
+    if (alive) return;//追加
     if (!rclcpp::ok()) rclcpp::init(0, nullptr);
     node = rclcpp::Node::make_shared(node_name.utf8().get_data());
     UtilityFunctions::print("ROS2 node started!");
+    alive = true;//追加
 }
 
 void ROS2Bridge::spin_some() {
@@ -39,9 +41,13 @@ void ROS2Bridge::spin_some() {
 }
 
 void ROS2Bridge::shutdown() {
+    if (!alive) return;//追加
+    publishers.clear();
+    subscribers.clear();
     // spin_some などで使っている node があれば
     if (node) {
         node.reset();  // すべての subscriber/publisher もここで自動的に破棄される
+    
     }
     if (rclcpp::ok()) {
         rclcpp::shutdown();

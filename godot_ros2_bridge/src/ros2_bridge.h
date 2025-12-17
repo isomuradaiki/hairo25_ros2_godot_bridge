@@ -29,7 +29,7 @@ class ROS2Bridge : public Object {
     std::shared_ptr<rclcpp::Node> node;
     std::vector<std::shared_ptr<ROS2Publisher>> publishers;
     std::vector<std::shared_ptr<ROS2Subscriber>> subscribers;
-
+    std::atomic<bool> alive{false};//追加
 
 
 protected:
